@@ -1,0 +1,19 @@
+*{ /*Pega todos elementos do codigo, assim vamos resetar todos os elementos padrões*/
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    width: 900px;
+    background-color: red;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none; /*tirar sublinhado dos links*/
+    padding: 8px;
+    border-right: 3px solid red;
+    font-size: 26px;
+    margin: 0 10px;
+}

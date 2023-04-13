@@ -1,0 +1,17 @@
+#div1 h1 { /*Com o jogo da velha# se chama o id*/
+    color: red;
+}
+
+/* < apenas a div filha, diretamente dentro do h1
+   sem o sinal <, vai procurar por todos h1 dentro*/
+
+
+.div2 h2 { /*para chamar a classe é com um ponto.*/
+     color: blue;
+}
+
+/*
+Diferença entre id x class
+id por padrão só atribui se não for repetir ela.
+tags com atributos diferentes 
+*/
