@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.artigo {
+    width: 1280px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.artigo h1 {
+    color: rgb(66, 149, 244);
+    font-size: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.artigo p {
+    color: green;
+    font-size: 27px;
+    font-family: tahoma;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 60px;
+    line-height: 40px; /*Espaçamente entre linhas*/
+}
+
+.artigo {
+    background-color: aqua;
+    width: 880px;
+    padding: 40px;
+    margin: 40px auto;
+    text-align: center;
+}
