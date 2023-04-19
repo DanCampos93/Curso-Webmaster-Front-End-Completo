@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilos para conteudo do Site*/
+
+html, body{
+    height: 100%;
+}
+
+.tipo1{
+    color: rgb(100, 100, 100)
+}
+
+a.link_ { /*Esse se sobresai, independente da ordem, pois sendo a.link é mais especifico.*/
+    font-size: 30px;
+}
+
+.tipo02 {
+    font-size: 40px;
+}
+

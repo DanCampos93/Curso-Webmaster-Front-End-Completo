@@ -1,0 +1,13 @@
+*/
+
+html, body {
+    height: 100%;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+ol > li {
+    color: red;
+}
