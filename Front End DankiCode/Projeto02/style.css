@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+/*Divs gerais*/
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both
+}
+/*****/
+
+header {
+    background-color: #D6D6D6;
+    padding: 10px 2% 30px 2%; /*09:41*/
+}
+
+.logo-1 {
+    float: left;
+    width: 150px;
+    height: 60px;
+    background-image: url(imagens/logo01.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-color: purple;*/
+}
+
+.logo-2 {
+    float: right;
+    width: 160px;
+    height: 60px;
+    background-image: url(imagens/logo02.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-color: green;*/
+}
+
+section.cover-form{
+    width: 100%;
+    padding: 0 2%;
+}
+
+.bg{
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('imagens/agua-ao-lado-da-piscina-beira-mar-751266.jpg');
+}
+
+.form-container{
+    float: right;
+    margin-right: 40px;
+    width: 400px;
+    height: 100%;
+    background-color: white;
+}
+
+.form-container h2 {
+    font-weight: normal;
+    padding: 30px 15px;
+    color: black;
+    font-size: 18px;
+
+    background-color: rgb(234, 236, 239);
+}
+
+@media screen and (max-width: 510px) {
+
+    header {
+        text-align: center;
+    }
+
+    .logo-1, .logo-2 {
+        margin-top: 10px;
+        display: inline-block;
+        float: none;
+    }
+}
